@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 75%;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.hero-header {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.profile-photo {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.hero-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.name-title {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.name {
+  font-size: 2.5rem;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+.linkedin ion-icon {
+  color: #0077b5;
+}
+
+.github ion-icon {
+  color: #333;
+}
+
+ion-icon {
+  height: 35px;
+  width: 35px;
+  color: #000;
+}
+
+.about-me {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.icon-title,
+.experience {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.uni {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.bsc {
+  font-weight: 600;
+}
+
+.type-company {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+  justify-content: center;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.jobs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.job {
+  padding: 20px 5px;
+  margin-top: 15px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.job:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.job-pos {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.job-year {
+  color: #555;
+  font-weight: 300;
+}
