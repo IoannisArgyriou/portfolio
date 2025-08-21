@@ -58,6 +58,15 @@ li {
   list-style: none;
 }
 
+li ion-icon {
+  transition: all 0.7s;
+}
+
+.contact-info li ion-icon:hover {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
 .linkedin ion-icon {
   color: #0077b5;
 }
@@ -79,21 +88,16 @@ ion-icon {
   line-height: 1.6;
 }
 
-.icon-title,
-.experience {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 30px;
-}
-
 .uni {
   margin-top: 10px;
   font-size: 1rem;
 }
 
-.bsc {
-  font-weight: 600;
+p.thesis {
+  font-style: italic;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
 }
 
 .type-company {
@@ -138,4 +142,55 @@ ion-icon {
 .job-year {
   color: #555;
   font-weight: 300;
+}
+
+.skills-list li {
+  margin: 20px 0;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.progress {
+  height: 20px;
+  border-radius: 20px;
+}
+
+.bar {
+  position: relative;
+  background-color: #eee;
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+.progress-html {
+  width: 85%;
+  background-color: #f06529;
+}
+
+.progress-css {
+  width: 75%;
+  background-color: #264de4;
+}
+
+.progress-js {
+  width: 20%;
+  background-color: #f0db4f;
+}
+
+.progress-wp {
+  width: 70%;
+  background-color: #00749c;
+}
+
+.coming-soon {
+  text-align: center;
+}
+
+.soon {
+  font-size: 100px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(#25252524, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

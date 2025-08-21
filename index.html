@@ -24,10 +24,11 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
     <title>My Portfolio - Ioannis Argyriou</title>
   </head>
   <body>
-    <section class="hero-header">
+    <section class="hero-header sections">
       <img
         class="profile-photo"
         src="profile.jpg"
@@ -70,61 +71,80 @@
         </div>
       </div>
     </section>
-    <section class="about-me">
+    <section class="about-me sections">
       <p class="bio">
         I'm a graduate of the Department of Digital Systems at the University of
         Piraeus, aspiring Front-End Developer. Passionate about building
         websites, learning new technologies, and contributing to creative teams.
       </p>
-
-      <div class="informations">
-        <div class="education">
-          <div class="icon-title">
-            <ion-icon class="graduated" name="school-outline"></ion-icon>
-            <h2 class="bachelor-title">Education</h2>
-          </div>
-          <p class="uni">
-            <strong class="bsc">BSc</strong> Digital Systems - University of
-            Piraeus
-          </p>
+    <div class="informations sections">
+      <div class="education">
+        <div class="icon-title titles">
+          <ion-icon class="graduated" name="school-outline"></ion-icon>
+          <h2 class="bachelor-title ">Education</h2>
         </div>
-        <div class="experience">
-          <ion-icon name="briefcase-outline"></ion-icon>
-          <h2 class="experience-title">Work Experience</h2>
+        <h2 class="uni">
+          Bachelor’s Degree in Digital Systems, University of Piraeus
+        </h2>
+        <p class="thesis">Thesis: Development of an E-commerce Website in a Wordpress Environment</p>
+      </div>
+      <div class="experience titles sections">
+        <ion-icon name="briefcase-outline"></ion-icon>
+        <h2 class="experience-title ">Work Experience</h2>
+      </div>
+      <div class="jobs">
+        <div class="job">
+          <div class="job-pos">
+            <h3 class="position">Content Editor</h3>
+            <p class="job-year">(March 2024 - Present)</p>
+          </div>
+          <div class="type-company">
+            <p class="type">Full-Time</p>
+            <p class="company">SHOPFLIX.GR</p>
+          </div>
         </div>
-        <div class="jobs">
-          <div class="job">
-            <div class="job-pos">
-              <h3 class="position">Content Editor</h3>
-              <p class="job-year">(March 2024 - Present)</p>
-            </div>
-            <div class="type-company">
-              <p class="type">Full-Time</p>
-              <p class="company">SHOPFLIX.GR</p>
-            </div>
+        <div class="job">
+          <div class="job-pos">
+            <h3 class="position">Digital Operator</h3>
+            <p class="job-year">(April 2023 - July 2023)</p>
           </div>
-          <div class="job">
-            <div class="job-pos">
-              <h3 class="position">Digital Operator</h3>
-              <p class="job-year">(April 2023 - July 2023)</p>
-            </div>
-            <div class="type-company">
-              <p class="type">Internship</p>
-              <p class="company">OPAP S.A</p>
-            </div>
+          <div class="type-company">
+            <p class="type">Internship</p>
+            <p class="company">OPAP S.A</p>
           </div>
-          <div class="job">
-            <div class="job-pos">
-              <h3 class="position">Invoice Clerk</h3>
-              <p class="job-year">(August 2022 - December 2022)</p>
-            </div>
-            <div class="type-company">
-              <p class="type">Full-Time</p>
-              <p class="company">Spentzos Farms</p>
-            </div>
+        </div>
+        <div class="job">
+          <div class="job-pos">
+            <h3 class="position">Invoice Clerk</h3>
+            <p class="job-year">(August 2022 - December 2022)</p>
+          </div>
+          <div class="type-company">
+            <p class="type">Full-Time</p>
+            <p class="company">Spentzos Farms</p>
           </div>
         </div>
       </div>
-    </section>
+      <section class="skills sections">
+        <div class="skills titles">
+          <ion-icon name="code-slash-outline"></ion-icon>
+        <h2 class="skills-title ">Skills</h2>
+        </div>
+        <ul class="skills-list">
+          <li><div class="logos"><ion-icon name="logo-html5" class="html-logo" style="color:#f06529"></ion-icon></div><div class="bar progress"><div class="progress-html progress"></div></div><span>85%</span></li>
+          <li><div class="logos"><ion-icon name="logo-css3" class="css-logo"  style="color:#264de4"></ion-icon></div><div class="bar progress"><div class="progress-css progress"></div></div><span>75%</span></li>
+          <li><div class="logos"><ion-icon name="logo-javascript" class="js-logo" style="color:#f0db4f"></ion-icon></div><div class="bar progress"><div class="progress-js progress"></div></div><span>20%</span></li>
+          <li><div class="logos"><ion-icon name="logo-wordpress" class="wp-logo" style="color:#00749C"></ion-icon></div><div class="bar progress"><div class="progress-wp progress"></div></div><span>70%</span></li>
+        </ul>
+      </section>
+      <section class="projects">
+        <div class="pro titles">
+          <ion-icon name="rocket-outline"></ion-icon>
+          <h2 class="project-title">Projects</h2>
+        </div>
+        <div class="coming-soon">
+        <p class="soon">Coming Soon!</p>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
