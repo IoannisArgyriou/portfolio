@@ -10,3 +10,9 @@
   margin-top: 30px;
   font-size: 22px;
 }
+
+@media (max-width: 912px) {
+  .sections {
+    margin-top: 35px;
+  }
+}
